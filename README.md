@@ -67,9 +67,10 @@ Este projeto foi desenvolvido em ciclos rápidos de iteração. Abaixo, document
 ## Como Executar
 
 1. **Clone o repositório:**
-
+```bash
 git clone https://github.com/umbura/foodinsight-agent.git
    cd foodinsight-agent
+````
    
 Configure o ambiente:
 
@@ -79,4 +80,5 @@ python -m venv .venv
 .venv\Scripts\activate
 
 pip install -r requirements.txt
+
 
