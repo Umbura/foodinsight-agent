@@ -66,13 +66,13 @@ Este projeto foi desenvolvido em ciclos rápidos de iteração. Abaixo, document
 
 ## Como Executar
 
-1. **Clone o repositório:**
+**1. Clone o repositório:**
 ```bash
 git clone https://github.com/umbura/foodinsight-agent.git
    cd foodinsight-agent
 ````
    
-2.Configure o ambiente:
+**2. Configure o ambiente:**
 ```bash
 python -m venv .venv
 ```
@@ -81,10 +81,12 @@ python -m venv .venv
 ```bash
 pip install -r requirements.txt
 ```
-3. Configuração de API:
+**3. Configuração de API:**
    Crie um arquivo .env na raiz do projeto, lá você deve inserir a API Key da IA que pretende utilizar. Ex: Grok, OpenAI, VertexAI:
 ```bash
 GROQ_API_KEY=gsk_...
 SERPER_API_KEY=...
+```
+4. Execute com python.
 
 
