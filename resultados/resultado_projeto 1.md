@@ -1,0 +1,5 @@
+### Smash Burger Fit Delight
+#### Descrição Curta: Sabor clássico, saúde moderna.
+#### Descrição Longa Vendedora:
+Experimente o Smash Burger Fit, uma revolução gastronômica que combina o melhor do clássico smash burger com elementos saudáveis e inovadores. Feito com 120g de carne bovina angus magra, cebola caramelizada, molho de pimenta, alface fresca, tomate sem sementes, queijo cheddar light, maionese light, tudo sobre um pão de brioche integral. Nossa embalagem especial e sistema de entrega com temperatura controlada garantem que cada mordisco chegue perfeito. Incluso, um sachê de molho artesanal para você personalizar seu prato. Escolha saudável, sabor intenso, entrega perfeita. Faça seu pedido agora e descubra uma nova dimensão de smash burger!
+#### Hashtags: #SmashBurgerFit #ComidaSaudavel #DeliveryPremium
