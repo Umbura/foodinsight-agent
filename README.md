@@ -40,7 +40,7 @@ Abaixo, documento os principais desafios técnicos enfrentados e as soluções a
 
 ### 2. Contexto insufiente.
    *   **Desafio:** Como todo mundo sabe, os modelos de inteligencia artificial não possuem conhecimento em tempo real. O que inviabilizaria o projeto, pois o objetivo é saber o que está em alta nas redes.
-   *   **Silução:** Inserir um mecanismo de pesquisa no modelo para a IA conseguir buscar informações na internet. No caso, optei pela API do **Serper**, que faria uma ponte entre a IA com o google.
+   *   **Solução:** Inserir um mecanismo de pesquisa no modelo para a IA conseguir buscar informações na internet. No caso, optei pela API do **Serper**, que faria uma ponte entre a IA com o google.
 ### 3. O Problema da Repetição (Loop de Alucinação)
 *   **Desafio:** Inicialmente, o agente entrava em um viés de confirmação, sugerindo repetidamente o mesmo produto ("Morango do Amor") devido ao cache agressivo do framework e prompts estáticos.
 *   **Solução:** Implementamos uma rotação aleatória de tópicos de busca (`search_angles`) combinada com a desativação programática do cache (`cache=False`) e seed baseada em timestamp. Isso forçou a entropia do sistema, garantindo resultados inéditos a cada execução.
@@ -92,6 +92,7 @@ SERPER_API_KEY=...
 *   **LLM Engine:** Llama 3.3 70B via Groq (Selecionado pela latência <1s e alta capacidade de raciocínio).
 *   **Tools:** SerperDev (Web Search & Social Listening).
 *   **Safety:** Gerenciamento de segredos via `.env` e validação de tipos.
+
 
 
 
