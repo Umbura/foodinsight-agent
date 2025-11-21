@@ -30,13 +30,10 @@ Este projeto foi desenvolvido em ciclos rápidos de iteração. Abaixo, document
 
 ### 1. Conflito grave de dependências (urllib3)
 
-Desafio: Durante a instalação de algumas bibliotecas — principalmente Selenium e Kubernetes — surgiu um conflito insolúvel relacionado ao urllib3. Cada biblioteca exigia uma faixa de versão incompatível entre si:
-
-Selenium requeria urllib3 >= 2.5.0 e Kubernetes requeria urllib3 < 2.4.0
-
-Como não existia versão única capaz de satisfazer ambas simultaneamente, o ambiente se tornava instável e o pip reportava erros constantes do dependency resolver.
-
-Solução: A saída foi isolar ambientes de execução, criando virtual environments independentes para cada conjunto de dependências. Isso permitiu instalar cada biblioteca com sua própria versão compatível do urllib3, eliminando completamente o conflito.
+   *   **Desafio:** Durante a instalação de algumas bibliotecas — principalmente Selenium e Kubernetes — surgiu um conflito insolúvel relacionado ao urllib3. Cada biblioteca exigia uma faixa de versão incompatível entre si:
+   *   Selenium requeria urllib3 >= 2.5.0 e Kubernetes requeria urllib3 < 2.4.0
+   *   Como não existia versão única capaz de satisfazer ambas simultaneamente, o ambiente se tornava instável e o pip reportava erros constantes do dependency resolver.
+   *   **Solução:** A saída foi isolar ambientes de execução, criando virtual environments independentes para cada conjunto de dependências. Isso permitiu instalar cada biblioteca com sua própria versão compatível do urllib3, eliminando completamente o conflito.
 
 ### 2. O Problema da Repetição (Loop de Alucinação)
 *   **Desafio:** Inicialmente, o agente entrava em um viés de confirmação, sugerindo repetidamente o mesmo produto ("Morango do Amor") devido ao cache agressivo do framework e prompts estáticos.
@@ -72,4 +69,5 @@ Solução: A saída foi isolar ambientes de execução, criando virtual environm
    ```bash
    git clone https://github.com/umbura/foodinsight-agent.git
    cd foodinsight-agent
+
 
