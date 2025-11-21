@@ -60,7 +60,7 @@ Abaixo, documento os principais desafios técnicos enfrentados e as soluções a
 ---
 
 ## Resultados
-📂 **[Para visualizar os resultados pelo Huginn](sample)**
+📂 **[Para visualizar os resultados pelo Huginn clique aqui](sample)**
 
 
 ---
@@ -99,6 +99,7 @@ SERPER_API_KEY=...
 *   **LLM Engine:** Llama 3.3 70B via Groq (Selecionado pela latência <1s e alta capacidade de raciocínio).
 *   **Tools:** SerperDev (Web Search & Social Listening).
 *   **Safety:** Gerenciamento de segredos via `.env` e validação de tipos.
+
 
 
 
