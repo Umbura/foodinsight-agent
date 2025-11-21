@@ -54,16 +54,6 @@ Este projeto foi desenvolvido em ciclos rápidos de iteração. Abaixo, document
 
 ---
 
-## Tech Stack
-
-*   **Linguagem:** Python 3.10+
-*   **Framework:** CrewAI (Multi-Agent Systems)
-*   **LLM Engine:** Llama 3.3 70B via Groq (Selecionado pela latência <1s e alta capacidade de raciocínio).
-*   **Tools:** SerperDev (Web Search & Social Listening).
-*   **Safety:** Gerenciamento de segredos via `.env` e validação de tipos.
-
----
-
 ## Como Executar
 
 **1. Clone o repositório:**
@@ -88,6 +78,14 @@ GROQ_API_KEY=gsk_...
 SERPER_API_KEY=...
 ```
 **4. Execute com python.**
+---
+## Tech Stack
+
+*   **Linguagem:** Python 3.10+
+*   **Framework:** CrewAI (Multi-Agent Systems)
+*   **LLM Engine:** Llama 3.3 70B via Groq (Selecionado pela latência <1s e alta capacidade de raciocínio).
+*   **Tools:** SerperDev (Web Search & Social Listening).
+*   **Safety:** Gerenciamento de segredos via `.env` e validação de tipos.
 
 
 
