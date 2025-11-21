@@ -1,6 +1,6 @@
 # FoodInsight Agent (Project Huginn)
 
-> **Sistema Autônomo de Inteligência de Mercado para Food Delivery**
+> **Agente Inteligente de Mercado para Food Delivery**
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![CrewAI](https://img.shields.io/badge/Orchestration-CrewAI-orange)](https://crewai.com)
@@ -88,6 +88,7 @@ SERPER_API_KEY=...
 *   **LLM Engine:** Llama 3.3 70B via Groq (Selecionado pela latência <1s e alta capacidade de raciocínio).
 *   **Tools:** SerperDev (Web Search & Social Listening).
 *   **Safety:** Gerenciamento de segredos via `.env` e validação de tipos.
+
 
 
 
