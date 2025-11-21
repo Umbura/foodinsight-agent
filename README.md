@@ -71,7 +71,8 @@ git clone https://github.com/umbura/foodinsight-agent.git
 ```bash
 python -m venv .venv
 ```
-   Com o ambiente configurado, você deve certificar-se de estar dentro dele no terminal para instalar os requirements. 
+   Com o ambiente configurado, você deve certificar-se de estar dentro dele no terminal para instalar os requirements.
+   
    *obs: Caso você não consiga executar o script é necessario desativar a politica de execução de script temporariamente.*
 ```bash
 pip install -r requirements.txt
@@ -92,6 +93,7 @@ SERPER_API_KEY=...
 *   **LLM Engine:** Llama 3.3 70B via Groq (Selecionado pela latência <1s e alta capacidade de raciocínio).
 *   **Tools:** SerperDev (Web Search & Social Listening).
 *   **Safety:** Gerenciamento de segredos via `.env` e validação de tipos.
+
 
 
 
