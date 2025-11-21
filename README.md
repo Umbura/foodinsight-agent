@@ -26,7 +26,7 @@ O projeto implementa o padrão de orquestração **CrewAI**, coordenando três a
 
 ## Desenvolvimento
 
-Este projeto foi desenvolvido em ciclos rápidos de iteração. Abaixo, documentamos os principais desafios técnicos enfrentados e as soluções de engenharia aplicadas:
+Este projeto foi desenvolvido em ciclos rápidos de iteração. Abaixo, documento os principais desafios técnicos enfrentados e as soluções aplicadas:
 
 ### 1. Conflito grave de dependências (urllib3)
 
@@ -69,5 +69,6 @@ Este projeto foi desenvolvido em ciclos rápidos de iteração. Abaixo, document
    ```bash
    git clone https://github.com/umbura/foodinsight-agent.git
    cd foodinsight-agent
+
 
 
