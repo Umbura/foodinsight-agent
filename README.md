@@ -59,6 +59,14 @@ Abaixo, documento os principais desafios técnicos enfrentados e as soluções a
 
 ---
 
+## Resultados
+
+O sistema gera automaticamente relatórios detalhados.
+📂 **[Clique aqui para ver um Relatório de Tendência Real gerado pelo Huginn](sample/insight_report_v2.2.md)**
+
+
+---
+
 ## Como Executar
 
 **1. Clone o repositório:**
@@ -93,6 +101,7 @@ SERPER_API_KEY=...
 *   **LLM Engine:** Llama 3.3 70B via Groq (Selecionado pela latência <1s e alta capacidade de raciocínio).
 *   **Tools:** SerperDev (Web Search & Social Listening).
 *   **Safety:** Gerenciamento de segredos via `.env` e validação de tipos.
+
 
 
 
