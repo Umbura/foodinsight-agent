@@ -30,7 +30,7 @@ O projeto implementa o padrão de orquestração **CrewAI**, coordenando três a
 
 ## Desenvolvimento
 
-Este projeto foi desenvolvido em ciclos rápidos de iteração. Abaixo, documento os principais desafios técnicos enfrentados e as soluções aplicadas:
+Abaixo, documento os principais desafios técnicos enfrentados e as soluções aplicadas:
 
 ### 1. Conflito grave de dependências (urllib3)
    *   **Desafio:** Durante a instalação de algumas bibliotecas, principalmente a Selenium e Kubernetes, geraram conflitos ao **urllib3**. Cada biblioteca exigia uma faixa de versão incompatível entre si:
@@ -92,6 +92,7 @@ SERPER_API_KEY=...
 *   **LLM Engine:** Llama 3.3 70B via Groq (Selecionado pela latência <1s e alta capacidade de raciocínio).
 *   **Tools:** SerperDev (Web Search & Social Listening).
 *   **Safety:** Gerenciamento de segredos via `.env` e validação de tipos.
+
 
 
 
