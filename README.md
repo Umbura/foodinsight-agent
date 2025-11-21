@@ -8,7 +8,7 @@
 
 O **FoodInsight** é uma arquitetura de agentes de IA projetada para acelerar o ciclo de inovação em *delivery*. O sistema simula uma esteira de P&D (Pesquisa e Desenvolvimento), varrendo redes sociais em busca de tendências virais de comidas, estruturando os dados e transformando em possiveis produtos.
 
-Enfrentei alguns desafios na sua produção que apesar da dor de cabeça, me rendeu uma boa experiencia para resolve-los, foi minha primeira produção de um agente e me abriu os olhos para usar essa ferramenta em outros projetos.
+Enfrentei alguns desafios na sua produção que, apesar da dor de cabeça, me rendeu uma boa experiencia por resolve-los. Esta foi minha primeira produção de um agente e me abriu os olhos para usar essa ferramenta em outros projetos.
 
 A ideia de nomea-lo de Huginn ocorreu-me quando pensei no agente como um mensageiro. Odin, tudo sabia pois seus corvos assim lhe diziam. Huginn representa o pensamento e por meio dele Odin coletava dados sobre todas as coisas.
 
@@ -92,6 +92,7 @@ SERPER_API_KEY=...
 *   **LLM Engine:** Llama 3.3 70B via Groq (Selecionado pela latência <1s e alta capacidade de raciocínio).
 *   **Tools:** SerperDev (Web Search & Social Listening).
 *   **Safety:** Gerenciamento de segredos via `.env` e validação de tipos.
+
 
 
 
