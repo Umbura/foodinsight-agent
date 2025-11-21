@@ -72,13 +72,19 @@ git clone https://github.com/umbura/foodinsight-agent.git
    cd foodinsight-agent
 ````
    
-Configure o ambiente:
-
-
+2.Configure o ambiente:
+```bash
 python -m venv .venv
-# Windows:
-.venv\Scripts\activate
-
+```
+   Com o ambiente configurado, você deve certificar-se de estar dentro dele no terminal para instalar os requirements. 
+   *obs: Caso você não consiga executar o script é necessario desativar a politica de execução de script temporariamente.*
+```bash
 pip install -r requirements.txt
+```
+3. Configuração de API:
+   Crie um arquivo .env na raiz do projeto, lá você deve inserir a API Key da IA que pretende utilizar. Ex: Grok, OpenAI, VertexAI:
+```bash
+GROQ_API_KEY=gsk_...
+SERPER_API_KEY=...
 
 
