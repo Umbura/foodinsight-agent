@@ -6,8 +6,9 @@
 [![CrewAI](https://img.shields.io/badge/Orchestration-CrewAI-orange)](https://crewai.com)
 [![Groq](https://img.shields.io/badge/Inference-Llama%203.3-purple)](https://groq.com)
 
-O **FoodInsight** é uma arquitetura de agentes de IA projetada para acelerar o ciclo de inovação em *Dark Kitchens*. O sistema simula uma esteira de P&D (Pesquisa e Desenvolvimento), varrendo redes sociais em busca de tendências virais de comidas, estruturando os dados e transformando em possiveis produtos.
-
+O **FoodInsight** é uma arquitetura de agentes de IA projetada para acelerar o ciclo de inovação em *delivery*. O sistema simula uma esteira de P&D (Pesquisa e Desenvolvimento), varrendo redes sociais em busca de tendências virais de comidas, estruturando os dados e transformando em possiveis produtos.
+Enfrentei alguns desafios na sua produção que apesar da dor de cabeça, me rendeu uma boa experiencia para resolve-los, foi minha primeira produção de um agente e me abriu os olhos para usar essa ferramenta em outros projetos.
+A ideia de nomea-lo de Huginn ocorreu-me quando pensei no agente como um mensageiro. Odin, tudo sabia pois seus corvos assim lhe diziam. Huginn representa o pensamento e por meio dele Odin coletava dados sobre todas as coisas.
 ---
 
 ## Arquitetura (Agentic Workflow)
@@ -53,7 +54,7 @@ Este projeto foi desenvolvido em ciclos rápidos de iteração. Abaixo, document
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 *   **Linguagem:** Python 3.10+
 *   **Framework:** CrewAI (Multi-Agent Systems)
@@ -63,12 +64,19 @@ Este projeto foi desenvolvido em ciclos rápidos de iteração. Abaixo, document
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
 1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/umbura/foodinsight-agent.git
+
+git clone https://github.com/umbura/foodinsight-agent.git
    cd foodinsight-agent
+   
+Configure o ambiente:
 
 
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+
+pip install -r requirements.txt
 
