@@ -87,6 +87,7 @@ pip install -r requirements.txt
 GROQ_API_KEY=gsk_...
 SERPER_API_KEY=...
 ```
-4. Execute com python.
+**4. Execute com python.**
+
 
 
