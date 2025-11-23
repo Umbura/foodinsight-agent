@@ -16,7 +16,6 @@
 
 <!-- MAIN IMAGE -->
 <!-- Substitua o caminho abaixo pela imagem real se houver, ou remova esta linha -->
-<img src="assets/foodinsight_demo.png" alt="FoodInsight Flow" width="100%">
 
 *AI Agent Architecture for Automated R&D in Food Delivery.*
 
@@ -119,3 +118,6 @@ Below, I document the main technical challenges faced and the solutions applied:
 *   **LLM Engine:** Llama 3.3 70B via Groq (Selected for <1s latency and high reasoning capability).
 *   **Tools:** SerperDev (Web Search & Social Listening).
 *   **Safety:** Secret management via `.env` and type validation.
+
+## License
+Distributed under the MIT license. See the LICENSE file for more details.
